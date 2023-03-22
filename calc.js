@@ -17,7 +17,7 @@ function clearAll () {
     out.textContent = 0;
 }
 
-document.querySelector('.ac').onclick = clearAll;
+document.querySelector('.').onclick = clearAll;
 
 document.querySelector('.buttons').onclick = (event) => {
 //нажата не кнопка
